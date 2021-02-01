@@ -56,13 +56,21 @@ header nav a:hover{
     align-items: flex-start;
 }
 
+.container{
+    margin-left: 30px;
+}
+
+atracao-principal .container{
+    width: 70px;
+}
+
 .titulo{
     margin-top: 15%;
     font-size: 50px;
     font-family: 'Trebuchet MS';
 }
 
-.atracao-principal .descricao-titulo-principal{
+.atracao-principal .sinopse-titulo-principal{
     margin-top: 10px;
     margin-bottom: 40px;
 }
@@ -85,4 +93,10 @@ header nav a:hover{
 
 .botao i {
     margin-right: 8px;
+}
+
+.box-atracao{
+    height: 100%;
+    width: 100%;
+    display: block;
 }
